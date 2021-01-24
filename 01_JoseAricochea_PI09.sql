@@ -1,3 +1,10 @@
+-- Crear base de datos dbZAPATERIA
+CREATE DATABASE dbZAPATERIA
+DEFAULT CHARACTER SET utf8;
+
+-- Poner en uso la Base de Datos
+use dbZapateria
+
 -- Creacion de la tabla MARCA
 CREATE TABLE MARCA (
     CODMAR char(4) NOT NULL COMMENT 'Código de la marca',
